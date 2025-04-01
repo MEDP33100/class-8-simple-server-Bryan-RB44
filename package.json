@@ -1,0 +1,23 @@
+{
+  "name": "class-8-simple-server-bryan-rb44",
+  "version": "1.0.0",
+  "description": "Assignment Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MEDP33100/class-8-simple-server-Bryan-RB44.git"
+  },
+  "author": "Bryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MEDP33100/class-8-simple-server-Bryan-RB44/issues"
+  },
+  "homepage": "https://github.com/MEDP33100/class-8-simple-server-Bryan-RB44#readme",
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}
