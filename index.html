@@ -1,14 +1,80 @@
-
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8" />
     <title>Spring Time</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <style>
+        html {
+            background-color: #c0d5fc;
+        }
+        h1 {
+            text-align: center;
+            background-color: #7fff5f;
+            font-family: "Saira Stencil One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            border: #de8bff solid;
+            border-radius: 50%;
+            padding: 10px;
+            max-width: 60%;
+            margin: auto;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 50px auto;
+            width: 80%;
+        }
+        .spring-item {
+            width: 30%;
+            padding: 20px;
+            text-align: center;
+            font-family: "Winky Sans", sans-serif;
+            font-weight: 600;
+            font-size: 1.5em;
+            border-radius: 15px;
+            border: 3px solid #ffffff;
+            background-color: #ffbfb7;
+            display: flex;
+            flex-direction: column;
+        }
+        .text-box {
+            border-radius: 1.25em;
+            background-color: #e2a9f8;
+            padding: 1px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Helllo Spring!!!!!</h1>
+    <h1>My Favorite Parts of Spring Time</h1>
+    <div class="container">
+        <div class="spring-item">
+            <h1>Part #1</h1>
+            <div class="text-box">
+                <p>The cherry trees blooming all across the city!</p>
+            </div>
+        </div>
+        <div class="spring-item">
+            <h1>Part #2</h1>
+            <div class="text-box">
+                <p>Fresher days! Perfect amount of sunlight and just enough wind!</p>
+            </div>
+        </div>
+        <div class="spring-item">
+            <h1>Part #3</h1>
+            <div class="text-box">
+                <p>My birthday! It's (usually) on the first day of Spring!</p>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
